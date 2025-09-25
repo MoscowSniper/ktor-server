@@ -1,8 +1,5 @@
 # Ktor API Server
 
-## Описание
-- **Items** (элементы/товары): Поля `id` (Int) и `name` (String).
-
 ## Требования
 - Kotlin 1.8+.
 - Gradle (для сборки и запуска).
@@ -40,3 +37,4 @@ json
 Удалить по ID.
 URL: /items/3
 Response: 200, {"message":"Item deleted"}.
+
